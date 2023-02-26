@@ -87,10 +87,14 @@ namespace lab_1
 
         public override string ToString()
         {
-            return "Банк: " + this._bankName + "\n" + "Число вкладов: " + this._numberOfContributions + "\n" + "Размер процентной ставки: " +
-                this._interestRate + "\n" + "Количество клиентов: " + this._numberOfClients + "\n" + "Сейчас работает: " + this._workingNow + "\n" +
-                "Число филиалов: " + this._numberOfFilials + "\n" + "Рейтинг банка: " + this._bankRating + "\n" + "Количество кредитов: " +
-                this._numberOfCredits;
+            return "Банк: " + this._bankName + "\n" + 
+            "Число вкладов: " + this._numberOfContributions + "\n" + 
+            "Размер процентной ставки: " + this._interestRate + "\n" + 
+            "Количество клиентов: " + this._numberOfClients + "\n" + 
+            "Сейчас работает: " + this._workingNow + "\n" +
+            "Число филиалов: " + this._numberOfFilials + "\n" + 
+            "Рейтинг банка: " + this._bankRating + "\n" + 
+            "Количество кредитов: " + this._numberOfCredits;
         }
 
          public void PrintField(){
